@@ -1,0 +1,16 @@
+Taiwan-LLM-7B-v2.1-chat-Q8_0.gguf$:
+  loader: llama.cpp
+  cpu: true
+  threads: 4
+  threads_batch: 0
+  n_batch: 512
+  no_mmap: false
+  mlock: false
+  no_mul_mat_q: false
+  n_gpu_layers: 128
+  tensor_split: ''
+  n_ctx: 4096
+  compress_pos_emb: 1
+  alpha_value: 1
+  rope_freq_base: 0
+  numa: false
