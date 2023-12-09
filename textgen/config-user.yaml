@@ -1,6 +1,6 @@
 Taiwan-LLM-7B-v2.1-chat-Q8_0.gguf$:
   loader: llama.cpp
-  cpu: true
+  cpu: false
   threads: 4
   threads_batch: 0
   n_batch: 512
